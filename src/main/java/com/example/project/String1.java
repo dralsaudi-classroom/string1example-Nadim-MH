@@ -40,7 +40,7 @@ public class String1 {
     }
     public void reverse() {
         int left = 0;
-	int right = size - 1;
+	int right = size + 1;
 	    
 	while(left < right){
 		
