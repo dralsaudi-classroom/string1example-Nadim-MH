@@ -30,23 +30,18 @@ public class String1 {
             append(s.getChar(i));
     }
     public boolean equal(String1 s) {
-    boolean flag = false;
-    if(s.lenght() != str.lenght())
-	    return flag;
+    if(s.size != size)
+	    return false;
     else{   
-	    for(int i = 0; i<length(); i++){
-		    if(s.getChar[i] == str.getChar[i])
-			    flag =true;
-		    else{
-			    flag = false;
-			    break;
-		    }
+	    for(int i = 0; i<size; i++){
+		    if(str[i] == s.getChar(i))
+			  return true; 
 		 }   
+	       return false:
 	     } 
-	    return flag;
     }
     public void reverse() {
-           int left = 0;
+        int left = 0;
 	int right = length() - 1;
 	    
 	while(left < right){
