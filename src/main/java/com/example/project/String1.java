@@ -31,18 +31,16 @@ public class String1 {
     }
     public boolean equal(String1 s) {
     if(s.size != size)
-	    return false;
-    else{   
+	    return false;  
 	    for(int i = 0; i<size; i++){
 		    if(str[i] == s.getChar(i))
 			  return true; 
 		 }   
-	       return false:
-	     } 
+	       return false: 
     }
     public void reverse() {
         int left = 0;
-	int right = length() - 1;
+	int right = size - 1;
 	    
 	while(left < right){
 		
