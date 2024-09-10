@@ -39,18 +39,9 @@ public class String1 {
 	       return false: 
     }
     public void reverse() {
-        int left = 0;
-	int right = size + 1;
-	    
-	while(left < right){
-		
-		char tmp = str[left];
-		str[left] = str[right];
-		str[right] = tmp;
+       char arr[]=new char[80];
+	 for(int i=0;i<size+1;i++){
+	 arr[i]=str[size-i];}
+	 str=arr;
 
-		left--;
-		right++;
-		
-    }
-    }
 }
