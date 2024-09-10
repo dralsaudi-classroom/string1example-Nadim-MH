@@ -46,3 +46,4 @@ public class String1 {
 	 str=arr;
 
 }
+}
