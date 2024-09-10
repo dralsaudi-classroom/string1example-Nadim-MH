@@ -40,13 +40,11 @@ public class String1 {
 
     }
     public void reverse() {
-        char temp1;
-        for (int i=0,k=this.size; i<this.size/2;i++,k--)
-        {
-            temp1 = str[k];
-            str[k] = str[i]; 
-            str[i] = temp1;
-        }
+        char arr[]=new char[80];
+	  for(int i=0;i<size+1;i++){
+	  arr[i]=str[size-i];}
+	  str=arr;
+
 
 }
 }
